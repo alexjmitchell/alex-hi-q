@@ -4,7 +4,8 @@
 
 body {
   font-size: 1rem;
-  font-family: sans-serif, serif;
+  font-family: "Century Gothic", "Futura", sans-serif;
+  margin: 20px;
 }
 
 ol,
