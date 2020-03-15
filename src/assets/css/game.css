@@ -1,0 +1,23 @@
+.game {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 2fr;
+  height: 80vh;
+  background-color: purple;
+}
+
+.game-board {
+  grid-column: 2;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.game-history {
+  grid-column: 4;
+  justify-items: center;
+  overflow: scroll;
+}
+
+.game-history button {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}

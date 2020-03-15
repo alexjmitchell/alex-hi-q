@@ -1,0 +1,10 @@
+.board {
+  width: 477px;
+  background-color: antiquewhite;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}

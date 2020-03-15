@@ -1,0 +1,39 @@
+.square {
+  background: white;
+  float: left;
+  height: 4rem;
+  width: 4rem;
+  padding: 0;
+  text-align: center;
+  z-index: 10;
+  border: solid 1px #aaaaaa;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.wall {
+  border: none !important;
+  background-color: antiquewhite;
+}
+
+.piece::before {
+  content: '☻';
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.piece {
+  color: red;
+}
+
+.selected {
+  color: deepskyblue;
+}
+
+.empty {
+  
+}
+
+.square:focus {
+  outline: none;
+}

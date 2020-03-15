@@ -1,0 +1,15 @@
+.marquee {
+  font-size: 6rem;
+  text-align: center;
+  width: 100%;
+  font-family: serif;
+  border-bottom: antiquewhite 1px solid;
+  background-color: black;
+  color: skyblue;
+  font-family: serif;
+}
+
+.special {
+  color: red;
+  font-family: cursive;
+}
